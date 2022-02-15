@@ -56,7 +56,7 @@ const sleep = ms => new Promise(res => setTimeout(res, ms));
           ZipFile: contents_in_base64
         },
         FunctionName: process.env.TENCENT_FUNCTION_NAME,
-        Runtime: "Nodejs12.16",
+        Runtime: "Nodejs16.13",
         MemorySize: MemorySize,
         Timeout: 18000,
         AsyncRunEnable: "true",
